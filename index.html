@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Let's Calculate!🔥</h1>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="screen">
+          <input class="input" type="text" />
+        </div>
+
+        <div class="button-container">
+          <div class="row">
+            <input class="btn" onclick="onClickAc()" type="button" value="AC" />
+            <input class="btn" onclick="onClickEs()" type="button" value="ES" />
+            <input class="btn" onclick="display(value)" type="button" value="%" />
+            <input class="btn" onclick="display(value)" type="button" value="/" />
+          </div>
+        </div>
+
+        <div class="button-container">
+          <div class="row">
+            <input class="btn" onclick="display(value)" type="button" value="7" />
+            <input class="btn" onclick="display(value)" type="button" value="8" />
+            <input class="btn" onclick="display(value)" type="button" value="9" />
+            <input class="btn" onclick="display(value)" type="button" value="*" />
+          </div>
+        </div>
+
+          <div class="button-container">
+            <div class="row">
+              <input class="btn" onclick="display(value)" type="button" value="4" />
+              <input class="btn" onclick="display(value)" type="button" value="5" />
+              <input class="btn" onclick="display(value)" type="button" value="6" />
+              <input class="btn" onclick="display(value)" type="button" value="-" />
+            </div>
+         </div>
+
+            <div class="button-container">
+                <div class="row">
+                  <input class="btn" onclick="display(value)" type="button" value="1" />
+                  <input class="btn" onclick="display(value)" type="button" value="2" />
+                  <input class="btn" onclick="display(value)" type="button" value="3" />
+                  <input class="btn" onclick="display(value)" type="button" value="+" />
+                </div>
+            </div>
+
+            <div class="button-container">
+                <div class="row">
+                  <input class="btn" onclick="display(value)" style="width: 8rem; border-radius: 1.3rem;" type="button" value="0" />
+                  <input class="btn" onclick="display(value)" type="button" value="." />
+                  <input class="btn" onclick="onClickEqual()" type="button" value="=" />
+                </div>
+            </div>
+      
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
