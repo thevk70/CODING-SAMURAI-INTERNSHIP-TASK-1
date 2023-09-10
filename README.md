@@ -25,7 +25,7 @@ Getting Started :
 Clone this repository to your local machine:
 
 Copy code
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/thevk70/CODING-SAMURAI-INTERNSHIP-TASK-1.git
 
 2.Open the index.html file in your preferred web browser.
 3.Start using the calculator for your calculations.
