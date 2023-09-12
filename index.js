@@ -8,7 +8,12 @@ function display(val) {
 }
 
 function onClickEqual() {
-  let ans = eval(string) + "";
+    let ans;
+  try {
+    ans = eval(string) + "";
+  } catch (error) {
+    document.querySelector("input").value = "Not a valid Expression";
+  }
   if (ans === "Infinity") {
     document.querySelector("input").value = "Can't divided by zero";
   } else {
