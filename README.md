@@ -16,6 +16,7 @@ Features :
 Technologies Used :
 
 1.Frontend: HTML, CSS, JavaScript
+
 2.Version Control: Git and GitHub
 
 Getting Started :
